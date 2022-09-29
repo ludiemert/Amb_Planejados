@@ -1,0 +1,79 @@
+
+body { /* estoou agrupando seletores, poderia ser assim =>  body, p, a { mas como o body pega todos eu coloco somente o body, menos o h1 esta em cima em cascata*/
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;/*centralizar todos os textos no meio*/
+    margin: 0; /*zera a margin do body ficando la em cima da tela*/
+ }
+
+ #hero {
+    width: 592px; /*largura do quadrado*/
+    margin: 0 auto 72px; /*ele equilibra e coloca tudo no meio, "auto" ele aplica para os 4 lados, sentido horario (poderia ser 0 32px 72px 48px aplicaria dos 4 lados da tela*/
+ }
+
+ #hero img {
+     margin-bottom: 72px; /*margim inferior*/
+ }
+
+ h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px; /*tamanho da fonte*/
+    line-height: 56px; /*altura da line*/
+    font-weight: normal; /*peso dessa fonte é em negrito*/
+    margin-bottom: 32px;
+
+}
+
+
+h1 span {
+    font-weight: bold; /*para deixar os span em negrito, entrando no span do h1, pegar o span dentro do h1*/ 
+}
+
+
+
+span, a {
+    color:#FF9900;
+    
+}
+
+
+
+p, #footer { 
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+    
+ }
+
+
+
+/*para pegar o espaço anterior se usa a + a left*/
+#footer a + a {
+    margin-left: 28px;
+}
+
+#line {
+
+    width: 568px; /*largura*/
+    height: 0; /*altura de 0*/
+
+    margin: 0 auto 8px; /*para preencher as laterais automatico, ficando certo a linha em cima da tag a (os links)*/
+    border: 1px solid #eceff2; /*linha em cima dos lins*/
+    /*espaço entre a linha e o texto (liks)*/
+
+}
+
+
+#balls {
+    width: 98.39px;
+    height: 88px;
+    position: fixed; /*o elemento fica fixo no fundo da tela, sobreposto, tem varias opçoes para o position  */
+   /* top: 0px; /*o elemento fica fixo no fundo da tela */
+    bottom: 0px; /*vai para baixo*/
+    right: 0px;/*vai para direita*/
+}
+
+
+
+/*#footer {
+    margin-bottom: 33px;
+}  se deixar fica com barra de rolagem */
