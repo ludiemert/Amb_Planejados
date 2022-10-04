@@ -46,8 +46,11 @@ It is an HTML page styled in CSS, applicable in any WEB system.
 
 ## ✒️ Authors
 
-* **Luciana Diemert** - *html e css* - [Lu Diemert](https://www.linkedin.com/in/lucianadiemert)
+ * **Rocketseat**
 
+- ## My LinkedIn - [![Linkedin Badge](https://img.shields.io/badge/-LucianaDiemert-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucianadiemert/)](https://www.linkedin.com/in/lucianadiemert/)
+
+-------
 
 ## 🎁 Acknowledgements and dedications
 
