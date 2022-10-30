@@ -44,6 +44,11 @@ No installation is required.
 
 It is an HTML page styled in CSS, applicable in any WEB system.
 
+## Document Used:
+
+[How the Web Works - Learning web development | MDN](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+
 ## ✒️ Authors
 
  * **Rocketseat**
